@@ -2,6 +2,11 @@
 
 In this section we explain how Dotnet 7 in a Docker containers was be used to scaffold this containerized API and bring us to the `section1` tag.
 
+With this increment a user is able to:
+- Run the project in a prebuilt devcontainer when we load vscode
+- Build the app from the commandline outside of vscode by calling `make build`
+- Run the app from the commandline outside of vscode by calling `make run`
+
 ## Project creation
 
 First the base files were created using the `dotnet new webapi` command used in the [first-web-api tutorial](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api). The commands were run from inside a contianer to remove the need for locally installed dependencies:
