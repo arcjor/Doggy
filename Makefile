@@ -4,4 +4,4 @@ build:
 	docker build -t doggy\:${GIT_HASH} .
 
 run:
-	docker run --rm -p 8080\:80 doggy\:${GIT_HASH}
+	docker run --rm --network=doggy_postgres -p 8080\:80 doggy\:${GIT_HASH}
