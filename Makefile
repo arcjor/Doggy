@@ -5,3 +5,9 @@ build:
 
 run:
 	docker run --rm --network=doggy_postgres -p 8080\:80 doggy\:${GIT_HASH}
+
+upload:
+	/azhelpers/upload_to_acr.sh
+
+deploy:
+	/azhelpers/run_in_aca.sh

@@ -21,10 +21,17 @@ The content in this repository makes use of technologies including:
 
 [Section 2](docs/section2.md) - Implementing persistence with Postgres
 
+[Section 3](docs/section3.md) - Leveraging the Azure CLI to run in the cloud
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## References
+
 [First-web-api tutorial](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api) - A tutorial by microsoft explaining how to build a dotnet REST API
+
 [Devcontainers VSCode official docs](https://code.visualstudio.com/docs/devcontainers/containers) - The VSCode page describing how devcontainers work
-[Containerizing a dotnet app](https://learn.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=linux)
+
+[Containerizing a dotnet app](https://learn.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=linux) - A tutorial by microsoft explaining how to run dotnet in a container
+
+[Dotnet with Posgtres tutorial](https://blog.christian-schou.dk/connect-postgresql-database-to-dot-net-6/) - A tutorial on how to run dotnet 6 with postgres and docker-compose
